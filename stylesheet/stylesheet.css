@@ -1,0 +1,411 @@
+* {
+    font-family: monospace;
+    letter-spacing: -1px;
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+.blue1 {
+    color: #7cdcf0;
+}
+
+.blue2 {
+    color: #44c1db;
+}
+
+.blue3 {
+    color: #408dc7;
+}
+
+.orange {
+    color: #ce9178;
+}
+
+.orange2 {
+    color: #ffd700;
+}
+
+.pink {
+    color: #c586c0;
+}
+
+.green1 {
+    color: #b5cea8;
+}
+
+.green2 {
+    color: #608b4e;
+}
+
+.white {
+    color: #ffffff;
+}
+
+h2 {
+  color: #608b4e;
+}
+
+a {
+text-decoration: underline;
+text-underline-offset: 4.5px;
+color: #ffffff;
+background: transparent;
+}
+
+/* Nav Bar */
+
+nav ul {
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0px;
+  background-color: #181818;
+  border-bottom: 0.5px solid #ffd700;
+  z-index: 1;
+}
+
+nav ul a {
+  color: #ffd700;
+  font-size: 16px;
+  padding: 16px;
+  padding-bottom: 22px;
+  background: #181818;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul img {
+  background-color: #181818;
+  position: relative;
+  vertical-align: middle;
+  padding: 16px;
+}
+
+nav li a:hover {
+  color : #181818;
+  background-color: #ffd700;
+}
+
+/* Banner */
+
+.banner{
+	background-position:center center;
+	background-size: cover;
+	background-attachment: fixed;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 175px;
+}
+
+.banner .container{
+  background-color: #181818;
+	position:relative;
+	text-align:center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: thin solid #ffd700;
+  top: 100px;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+}
+
+.banner h1{
+  background-color: #181818;
+	margin-top:0px;
+  margin-bottom:15px;
+	font-size:8em;
+	letter-spacing: 5px;
+  text-shadow: black 3px 3px;
+}
+
+.banner h1 span{
+  background-color: #181818;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 3%;
+}
+
+.banner h2{
+  background-color: #181818;
+	font-size:1.4em;
+	letter-spacing:2px;
+	color:#6a9955;
+  text-shadow: black 1.5px 1.5px;
+}
+/* Content */
+
+.content{
+	text-align:center;
+	background-color:#1f1f1f;
+  color:#ffffff;
+	font-size:1.5em;
+}
+
+.content .container{
+	position:relative;
+  background-color: #1f1f1f;
+  min-height: 650px;
+  margin: auto;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.visible{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+}
+
+/*Taylor Hallin*/
+#th-ban {
+	background-image: url(../images/th-bg-blur.png) ;
+	border-top:thin solid #ffd700;
+	border-bottom:thin solid #ffd700;
+  height: 80vh;
+}
+
+#th-ban .container{
+	top: 160px;
+}
+
+#th-ban span{
+  margin: -30px;
+}
+
+/*Who Am I?*/
+
+#who-ban{
+  background-color: #1f1f1f;
+  padding-bottom: 120px;
+  padding-left: 32.5%;
+  padding-right: 32.5%;
+}
+
+#who-ban span{
+  margin: -15px;
+}
+
+#who-ban h1{
+  white-space: nowrap;
+}
+
+#who-cont{
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#th {
+  height: 350px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+#who-cont p{
+  padding: 20px;
+  max-width: 600px;
+}
+
+/*Experience*/
+#exp-ban{
+	border-top:thin solid #ffd700;
+  padding-bottom: 175px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+#exp-ban span{
+  margin: -15px;
+}
+
+#exp-cont{
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.logo{
+  height: 75px;
+  width: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#exp-cont .logoS{
+  height: 50px;
+  width: auto;
+  display: block;
+  padding-top: 32.5px;
+  padding-bottom: 32.5px;
+  padding-left: 35px;
+}
+
+.expContainer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+
+.expContainer img {
+  margin-right: 10px;
+}
+
+#beginnercodesText {
+  display: block;
+}
+
+#codecademyLogo{
+  padding-left: 125px;
+}
+
+#codecademyText{
+  padding-left: 115px;
+}
+
+#udemyLogo{
+  padding-left: 145px;
+}
+
+#udemyText{
+  padding-left: 150px;
+}
+
+#w3schoolsLogo{
+  padding-left: 0px;
+}
+
+#w3schoolsText{
+  padding-left: 130px;
+}
+
+#stackoverflowLogo{
+  padding-left: 40px;
+}
+
+#stackoverflowText{
+  padding-left: 40px;
+}
+
+#freecodecampLogo{
+  padding-left: 40px;
+}
+
+#freecodecampText{
+  padding-left: 115px;
+}
+
+#beginnercodesLogo{
+  padding-left: 135px;
+}
+
+#beginnercodesText{
+  padding-left: 125px;
+}
+
+#youtubeLogo{
+  padding-left: 115px;
+}
+
+#youtubeText{
+  padding-left: 117.5px;
+}
+
+.expTxt a {
+  margin: 0;
+  padding: 0;
+}
+
+.githubLogo{
+  height: 24px;
+  width: auto;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+/*Contact Details*/
+#det-ban{
+	border-top:thin solid #ffd700;
+  padding-left: 22.5%;
+  padding-right: 22.5%;
+}
+
+#det-ban span{
+  margin: -15px;
+}
+
+#det-cont{
+  height: 625px;
+  width: 450px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#det-cont .container{
+  padding: 20px;
+  min-height: 250px;
+  background-color: #181818;
+  border: thin solid #ffd700;
+}
+
+.detContainer{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.logoDet{
+  height: 60px;
+  width: auto;
+  display: block;
+  padding: 15px;
+  background: transparent;
+}
+
+.detText{
+  background: transparent;
+  margin-left: 35px;
+}
+
+@media screen and (max-width: 1400px) {
+  #who-ban{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #exp-ban{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .expContainer {
+    height: auto;
+    width: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
